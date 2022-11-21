@@ -218,6 +218,7 @@ label{
         padding: 10px;
       
     }
+    
 }
 @media(max-width:425px){
     .container{
@@ -237,7 +238,15 @@ label{
     td button i {
         font-size: 12px;
       }
-      
+      #res{
+        font-size: 15px;
+        padding: 5px;
+
+      }
+      .modal{
+        font-size: 15px;
+    
+      }
     
 }
 @media(max-width:320px){
@@ -262,5 +271,14 @@ label{
       
       td button i:first-child {
         margin-right: 0px;
+      }
+     #res{
+        font-size: 15px;
+        padding: 5px;
+
+      }
+      .modal{
+        font-size: 15px;
+    
       }
 }
