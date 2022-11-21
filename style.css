@@ -54,7 +54,6 @@ button{
 
 }
 
-
 td{
     border-bottom:1px solid #0a2d6d !important;
    
@@ -104,6 +103,20 @@ table tr th:nth-child(5){
 table tr th:last-child{
 
     background-color: rgb(189, 20, 8);
+
+}
+
+label{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: sarala !important;
+    text-transform: uppercase !important;
+    font-weight: bold;
+    
 
 }
 
@@ -157,19 +170,7 @@ table tr th:last-child{
 .edit input::placeholder{
     color: rgba(255, 255, 255, 0.378);
 }
-label{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    font-family: sarala !important;
-    text-transform: uppercase !important;
-    font-weight: bold;
-    
 
-}
 
 .active{
     display: flex;
@@ -204,3 +205,51 @@ label{
   td button i:first-child {
     margin-right: 10px;
   }
+
+
+@media(max-width:768px){
+    .container{
+        width: 600px;
+        height: auto;
+        padding: 10px;
+      
+    }
+}
+@media(max-width:425px){
+    .container{
+        width: 380px;
+        height: auto;
+        padding: 10px;
+      
+    }
+    th{
+        padding: 2px;
+        font-size: 12px;
+    }
+    
+    
+}
+@media(max-width:320px){
+    .container{
+        width: 300px;
+        height: auto;
+        padding: 10px;
+      
+    }
+    th{
+        padding: 2px;
+        font-size: 10px;
+    }
+    
+    table{
+        font-size: 12px;
+
+    }
+    td button i {
+        font-size: 12px;
+      }
+      
+      td button i:first-child {
+        margin-right: 0px;
+      }
+}
