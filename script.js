@@ -55,7 +55,7 @@ function insertItem(item, index) {
     <td>${item.nome}</td>
     <td>${item.qtd}</td>
     <td>${item.marca}</td>
-    <td class="info-valor">R$${item.preco}</td>
+    <td class="info-valor">${item.preco}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
     </td>
