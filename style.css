@@ -14,7 +14,7 @@ height: 100vh;
     border: 3px solid #0a2d6d;
     width: 800px;
     border-radius: 15px;
-    height:40em ;
+    height:auto ;
 
 }
 .modal{
@@ -54,7 +54,7 @@ button{
 
 }
 
-td{
+form{
     border-bottom:1px solid #0a2d6d !important;
    
 }
