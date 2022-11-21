@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>  
+        <div class="edit-body">
+        <div class="edit">
+            <form>
+                <label for="m-nome"></label>
+                <input type="text" id="m-nome" placeholder="Nome" required>
+
+                <label for="m-qtd"></label>
+                <input type="text" id="m-qtd" placeholder="Unidade/Kg" required>
+                
+                <label for="m-marca"></label>
+                <input type="text" id="m-marca" placeholder="Marca" required>    
+
+                <label for="m-preco"></label>
+                <input type="number" id="m-preco" placeholder="Preço" required>        
+                <button class="add">Salvar</button>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="modal">
+            Lista De Compras
+            <button onclick="openModal()">Adicionar</button>
+        </div>
+        <div class="listable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Unidade/kg</th>
+                        <th>Marca</th>
+                        <th>Preço</th>
+                        
+                        <th class="acao">Editar</th>
+                        <th class="acao">Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
