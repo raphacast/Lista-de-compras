@@ -230,7 +230,14 @@ label{
         padding: 2px;
         font-size: 10px;
     }
-    
+    table{
+        font-size: 10px;
+
+    }
+    td button i {
+        font-size: 10px;
+      }
+      
     
 }
 @media(max-width:320px){
